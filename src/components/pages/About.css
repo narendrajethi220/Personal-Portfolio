@@ -1,0 +1,185 @@
+.about-section {
+  width: 80vw;
+  /* border: 2px solid black; */
+  margin: 5rem auto auto auto;
+}
+
+.section-icon {
+  width: 10%;
+  height: auto;
+}
+.about-header {
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+.about-header-icon {
+  width: 70%;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon-title {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.about-link {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.about-link-linkedin {
+  text-decoration: none;
+  color: #52525b;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.about-link-linkedin:hover {
+  color: black;
+  cursor: pointer;
+}
+.icon {
+  vertical-align: middle;
+  margin-left: 2rem;
+  color: #52525b;
+  font-size: large;
+}
+.about-me-section {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  /* margin-top: 0.3rem; */
+}
+.intro {
+  /* border: 2px solid black; */
+  /* flex: 50; */
+  width: 50%;
+
+  /* margin: auto; */
+}
+.intro-title {
+  color: #404040;
+}
+.description {
+  text-align: left;
+  color: #52525b;
+  /* font-size: 1.1rem; */
+  font-weight: 500;
+}
+
+.description span.para {
+  display: block;
+}
+.qualification {
+  /* margin-left: 2rem; */
+  /* flex: 50; */
+  width: 40%;
+  /* border: 5px solid black; */
+  /* text-align: right; */
+  /* padding-left: 2%; */
+}
+.qualification-header {
+  color: #404040;
+}
+.year span {
+  display: block;
+}
+.year {
+  color: #52525b;
+  font-weight: 500;
+}
+.year .course {
+  color: black;
+  font-weight: bold;
+}
+.year .branch {
+  color: black;
+}
+.skill-set-title {
+  color: #404040;
+}
+.skill-card {
+  /* border: 3px solid yellow; */
+  background-color: #f0fdfa;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card-one {
+  width: 20%;
+}
+.card-two {
+  width: 20%;
+}
+.card-three {
+  width: 20%;
+}
+.card-four {
+  width: 20%;
+}
+/* Respon
+sive */
+@media only screen and (max-width: 480px) {
+  .about-section {
+    width: 90vw;
+  }
+  .about-me-section {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .about-header-icon img {
+    width: 30%;
+    height: auto;
+  }
+  .about-header-icon span {
+    font-size: 1.2rem;
+    margin-left: 0.2rem;
+    font-weight: 500;
+  }
+  .intro {
+    width: 100%;
+  }
+  .qualification {
+    width: 100%;
+  }
+  .about-link-linkedin {
+    font-size: 1rem;
+  }
+
+  .skill-card {
+    /* border: 3px solid yellow; */
+    background-color: #f0fdfa;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+  }
+
+  .card-one {
+    width: 35%;
+  }
+  .card-two {
+    width: 35%;
+  }
+  .card-three {
+    width: 35%;
+  }
+  .card-four {
+  }
+}

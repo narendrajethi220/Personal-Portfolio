@@ -1,0 +1,40 @@
+import React from "react";
+import "./Herosection.css";
+import "../App.css";
+// import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
+
+const Herosection = () => {
+  return (
+    <div id="heromain" className="hero-main">
+      <div className="hero-intro">
+        <div className="hero-intro-div">
+          <img src="/namaskara.png" alt="Namaskar" />
+        </div>
+        <h2 className="hero-title">
+          Namaste, I am <span className="hero-name">Narendra Jethi</span>
+        </h2>
+        <p className="hero-para">
+          Enthusiastic B.Tech graduate in Computer Science with a decent
+          foundation in programming, web development, and cloud technologies.
+        </p>
+      </div>
+
+      <div className="hero-img">
+        <img src="/hero-main-img.png" alt="Hero-img" />
+        {/* <div className="hero-socials">
+          <a href="https://instagram.com/_narendrajethi?igshid=MzRlODBiNWFlZA==">
+            <FaInstagram />
+          </a>
+          <a href="https://github.com/narendrajethi220">
+            <FaGithubSquare />
+          </a>
+          <a href="https://www.linkedin.com/in/narendra-singh-jethi-4b701b195/">
+            <FaLinkedin />
+          </a>
+        </div> */}
+      </div>
+    </div>
+  );
+};
+
+export default Herosection;

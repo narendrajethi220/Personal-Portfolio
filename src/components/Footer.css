@@ -1,0 +1,24 @@
+.footer-section {
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+}
+.thank-you {
+  margin-top: 2rem;
+}
+
+.thanks-image {
+  /* border: 2px solid black; */
+  /* width: 80%; */
+  height: 20vh;
+  margin: auto;
+}
+.copyright p {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #404040;
+}

@@ -1,0 +1,119 @@
+.contact-section {
+  /* border: 2px solid black; */
+  width: 80vw;
+  margin: 5rem auto auto auto;
+}
+.contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 1rem;
+}
+.contact-header-icon {
+  display: flex;
+  align-items: center;
+}
+.section-icon {
+  width: 10%;
+  height: auto;
+}
+.icon-title {
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.contact-link {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+.contact-link-instagram {
+  text-decoration: none;
+  color: #52525b;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+.contact-link-instagram:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.icon {
+  vertical-align: middle;
+  margin-left: 2rem;
+  color: #52525b;
+  font-size: large;
+}
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.contact-message {
+  /* border: 2px solid black; */
+
+  color: #52525b;
+  width: 40%;
+  font-weight: 500;
+}
+.message {
+  text-align: justify;
+}
+.contact-message button {
+  border: 2px solid #38bdf8;
+  background-color: #38bdf8;
+  color: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.contact-message button:hover {
+  cursor: pointer;
+  border: 2px solid #34d399;
+  background-color: #34d399;
+}
+.conference-icon {
+  width: 50%;
+}
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .contact-section {
+    /* border: 2px solid black; */
+    width: 90vw;
+  }
+  .contact-message {
+    width: 100%;
+  }
+  .conference-icon {
+    width: 100%;
+  }
+  .contact-header-icon img {
+    width: 30%;
+    height: auto;
+  }
+  .contact-header-icon span {
+    margin-left: 0.2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .contact-link-instagram {
+    font-size: 1rem;
+  }
+  .contact-message button {
+    border: 2px solid #38bdf8;
+    background-color: #38bdf8;
+    color: white;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+}

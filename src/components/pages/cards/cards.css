@@ -1,0 +1,25 @@
+.card-title {
+  color: #52525b;
+}
+.card-icon {
+  width: 15%;
+  height: auto;
+  margin: 0.5rem;
+}
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  .card-images {
+    /* border: 2px solid black; */
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+  }
+
+  .card-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    margin: px; /* Adjust the margin as needed */
+  }
+}
