@@ -17,6 +17,15 @@ const Herosection = () => {
           Enthusiastic B.Tech graduate in Computer Science with a decent
           foundation in programming, web development, and cloud technologies.
         </p>
+        <span className="get-resume-space">
+          <a
+            href="https://drive.google.com/file/d/1tZ0cvlhVBqSZWE67limrBxnD8l_CEZlV/view?usp=sharing"
+            rel="noreferrer"
+            target="_blank"
+          >
+            Get Resume
+          </a>
+        </span>
       </div>
 
       <div className="hero-img">
