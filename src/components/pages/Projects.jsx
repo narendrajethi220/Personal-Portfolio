@@ -41,13 +41,6 @@ const Projects = () => {
       source: "/project_images/project_6.png",
       bg: "#d1fae5",
     },
-    {
-      title: "Monitoring Dashboard",
-      para: "Dashboar Built React.Js for smooth UI and Efficiently monitor, analyze, and manage operations with our advanced  Monitoring System. Ensure safety and optimize performance effortlessly.Embedded Google Maps for the exact location feature.",
-      link: "https://jethimonitoringsystemdashboard.netlify.app/",
-      source: "/project_images/project_5.png",
-      bg: "#fef9c3",
-    },
   ];
 
   return (
