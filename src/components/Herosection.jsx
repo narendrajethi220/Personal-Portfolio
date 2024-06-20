@@ -1,7 +1,7 @@
 import React from "react";
 import "./Herosection.css";
 import "../App.css";
-import { heroImg } from "../../public/hero-main-img.png";
+import { heroImg } from "/hero-main-img.png";
 // import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const Herosection = () => {
