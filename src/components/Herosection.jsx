@@ -29,7 +29,10 @@ const Herosection = () => {
       </div>
 
       <div className="hero-img">
-        <img src="/hero-main-img.png" alt="Hero-img" />
+        <img
+          src="https://drive.google.com/file/d/1s6aMlBX8AdvGW1C7-X7nEX1dYNFhyjJn/view?usp=sharing"
+          alt="Hero-img"
+        />
         {/* <div className="hero-socials">
           <a href="https://instagram.com/_narendrajethi?igshid=MzRlODBiNWFlZA==">
             <FaInstagram />
