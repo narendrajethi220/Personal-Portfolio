@@ -1,7 +1,6 @@
 import React from "react";
 import "./Herosection.css";
 import "../App.css";
-import { heroImg } from "/hero-main-img.png";
 // import { FaInstagram, FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 const Herosection = () => {
@@ -30,18 +29,7 @@ const Herosection = () => {
       </div>
 
       <div className="hero-img">
-        <img src={heroImg} alt="Hero-img" />
-        {/* <div className="hero-socials">
-          <a href="https://instagram.com/_narendrajethi?igshid=MzRlODBiNWFlZA==">
-            <FaInstagram />
-          </a>
-          <a href="https://github.com/narendrajethi220">
-            <FaGithubSquare />
-          </a>
-          <a href="https://www.linkedin.com/in/narendra-singh-jethi-4b701b195/">
-            <FaLinkedin />
-          </a>
-        </div> */}
+        <img src="/hero-main-img.png" alt="Hero-img" />
       </div>
     </div>
   );
